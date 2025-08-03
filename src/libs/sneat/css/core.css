@@ -227,6 +227,19 @@ body {
   -webkit-tap-highlight-color: rgba(34, 48, 62, 0);
 }
 
+.mantine-Pagination-control {
+  border-radius: 50%;
+  color: #fff !important;
+  background-color: RGBA(var(--bs-primary-rgb), var(--bs-bg-opacity, 1)) !important;
+  transition: background-color 0.3s ease, color 1s ease;
+}
+
+.mantine-Pagination-control:hover {
+  border-radius:50%;
+  background-color: color-mix(in sRGB, var(--bs-paper-bg) var(--bs-bg-label-tint-amount), var(--bs-primary)) !important;
+  color: var(--bs-primary) !important;
+}
+
 hr {
   margin: 1rem 0;
   color: var(--bs-border-color);
