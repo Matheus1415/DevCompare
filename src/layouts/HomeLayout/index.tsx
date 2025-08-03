@@ -13,7 +13,7 @@ export function HomeLayout({ children }: Layout) {
           {children}
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
