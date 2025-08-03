@@ -19,7 +19,7 @@ export interface DashboardCardProps
     VariantProps<typeof DashboardCardVariants> {
   title: string;
   subtitle: string;
-  countElement: string;
+  countElement: string | number;
   colClass?: string;
   variantBadge?: "label-primary" | "label-secondary" | "label-success" | "label-danger" | "label-warning" | "label-info" | "label-dark";
   icon?:string;
