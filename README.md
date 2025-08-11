@@ -59,7 +59,6 @@ Para rodar o **NLW Agents** localmente, siga os passos abaixo:
 - Tailwind CSS 3+ — Utilitário CSS para construção rápida de UIs
 - Mantine — Biblioteca de componentes acessíveis e modernos
 - Mantine Datatable — Tabela poderosa com paginação, filtros e mais
-- D3.js + Venn.js — Visualização de dados com diagramas de Venn
 - Lucide Icons — Ícones SVG limpos e escaláveis
 
 ---
