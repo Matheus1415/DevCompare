@@ -110,7 +110,6 @@ export function Table() {
         minHeight={300}
       />
 
-      {/* Paginação Mantine */}
       {totalPages > 1 && (
         <div
           className="d-flex justify-content-between align-items-center mt-3 bg-label-primary"

@@ -4,7 +4,6 @@ export function Footer() {
       <div className="container-xxl">
         <div className="footer-container d-flex align-items-center justify-content-between py-4 flex-md-row flex-column">
           
-          {/* Créditos */}
           <div className="text-center text-md-start mb-2 mb-md-0">
             © {new Date().getFullYear()} — Feito com ❤️ por{" "}
             <a
@@ -17,7 +16,6 @@ export function Footer() {
             </a>
           </div>
 
-          {/* Links úteis */}
           <div className="text-center text-md-end d-none d-lg-block">
             <a
               href="https://github.com/Matheus1415/DevCompare"

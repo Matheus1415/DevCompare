@@ -234,9 +234,22 @@ body {
   transition: background-color 0.3s ease, color 1s ease;
 }
 
+.mantine-Pagination-control {
+  border-radius: 50%;
+  background-color: RGBA(var(--bs-primary-rgb), var(--bs-bg-opacity, 0.6)) !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.mantine-Pagination-control[data-active="true"] {
+  color: #fff !important;
+  background-color: RGBA(var(--bs-primary-rgb), var(--bs-bg-opacity, 1)) !important;
+  transition: background-color 0.3s ease, color 1s ease;
+}
+
 .mantine-Pagination-control:hover {
   border-radius:50%;
-  background-color: color-mix(in sRGB, var(--bs-paper-bg) var(--bs-bg-label-tint-amount), var(--bs-primary)) !important;
+  background-color: RGBA(var(--bs-primary-rgb), var(--bs-bg-opacity, 0.4)) !important;
   color: var(--bs-primary) !important;
 }
 
